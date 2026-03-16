@@ -1,0 +1,213 @@
+# JavaScript Learning Roadmap
+
+## Stage 1 — Fundamentals
+
+Start with the core language concepts.
+
+JavaScript Basics
+↓
+Variables (`let`, `const`)
+↓
+Data Types (String, Number, Boolean, Null, Undefined)
+↓
+Operators (Arithmetic, Comparison, Logical)
+↓
+Conditional Statements (`if`, `else`, `switch`)
+↓
+Loops (`for`, `while`, `do...while`)
+↓
+Functions (declaration, parameters, return values)
+
+Example 1:
+
+```
+let age = 21;
+if (age >= 18) {
+  console.log("Adult");
+}
+```
+
+Example 2:
+
+```
+function add(a, b) {
+  return a + b;
+}
+```
+
+---
+
+## Stage 2 — Data Structures in JavaScript
+
+Arrays
+↓
+Array Methods (`push`, `pop`, `map`, `filter`)
+↓
+Objects
+↓
+Object Methods
+↓
+JSON Basics
+
+Example 1:
+
+```
+let numbers = [10, 20, 30];
+numbers.push(40);
+```
+
+Example 2:
+
+```
+let student = {
+  name: "Vishnu",
+  age: 21
+};
+```
+
+---
+
+## Stage 3 — DOM Manipulation
+
+HTML Structure
+↓
+Selecting Elements (`getElementById`, `querySelector`)
+↓
+Changing Content
+↓
+Event Handling (`click`, `submit`)
+↓
+Form Handling
+
+Example 1:
+
+```
+document.getElementById("btn").onclick = function(){
+  alert("Button clicked");
+};
+```
+
+Example 2:
+
+```
+document.querySelector("h1").style.color = "blue";
+```
+
+---
+
+## Stage 4 — Browser Features
+
+Local Storage
+↓
+Session Storage
+↓
+Timers (`setTimeout`, `setInterval`)
+↓
+Form Validation
+
+Example 1:
+
+```
+localStorage.setItem("username", "Vishnu");
+```
+
+Example 2:
+
+```
+setTimeout(function(){
+  console.log("Hello after 2 seconds");
+}, 2000);
+```
+
+---
+
+## Stage 5 — Modern JavaScript (ES6+)
+
+Arrow Functions
+↓
+Destructuring
+↓
+Template Literals
+↓
+Modules
+↓
+Spread Operator
+
+Example 1:
+
+```
+const add = (a, b) => a + b;
+```
+
+Example 2:
+
+```
+const user = {name: "Vishnu", age: 21};
+const {name} = user;
+```
+
+---
+
+## Stage 6 — Asynchronous JavaScript
+
+Callbacks
+↓
+Promises
+↓
+Async / Await
+↓
+API Requests (`fetch`)
+
+Example 1:
+
+```
+fetch("https://api.github.com/users")
+.then(res => res.json())
+.then(data => console.log(data));
+```
+
+Example 2:
+
+```
+async function getData() {
+  let res = await fetch(url);
+}
+```
+
+---
+
+## Stage 7 — Projects
+
+Mini Projects
+↓
+Counter App
+↓
+Calculator
+↓
+To-Do List
+
+Intermediate Projects
+↓
+Weather App (API)
+↓
+Notes App (Local Storage)
+
+Advanced Projects
+↓
+Portfolio Website
+↓
+Chat Application
+
+---
+
+## Learning Strategy
+
+Daily Plan:
+
+1 Concept
+↓
+1 Small Program
+↓
+1 Git Commit
+
+Repeat daily to maintain consistent learning and contributions.
