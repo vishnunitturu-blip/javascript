@@ -1,0 +1,15 @@
+let name = "Vishnu";
+let age = 21;
+let college = "MGR College";
+
+console.log(name);
+console.log(age);
+console.log(college);
+
+
+# JavaScript Learning Journey
+
+Day 2:
+- Variables
+- Data Types
+- Console Output
